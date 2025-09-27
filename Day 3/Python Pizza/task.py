@@ -18,6 +18,8 @@ else:
 if pepperoni == "Y":
     if size == "S":
        bill += 2
+    elif size == "M":
+        bill += 3
 else:
     bill += 0
 
